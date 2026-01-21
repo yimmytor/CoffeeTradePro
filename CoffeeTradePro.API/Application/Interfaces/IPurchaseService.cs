@@ -4,6 +4,6 @@ namespace CoffeeTradePro.API.Application.Interfaces
 {
     public interface IPurchaseService
     {
-        Task<Purchase> CreatePurchaseAsync(Purchase purchase);
+        Task<Purchase?> CreatePurchaseAsync(Purchase purchase);
     }
 }
